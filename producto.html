@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" href="css/styles.css" as="style" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Frontend Store</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img src="/img/logo.png" alt="Logotipo" class="header__logo"
+      /></a>
+    </header>
+    <nav class="navegacion">
+      <a class="navegacion__enlace" href="index.html">Tienda</a>
+      <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+    <main class="contenedor">
+      <h1>ReactJS</h1>
+      <div class="camisa">
+        <img src="/img/3.jpg" alt="imagen camisa" class="camisa__imagen" />
+        <div class="camisa__contenido">
+          <p>
+            scelerisque quis vehicula et, dignissim a elit. Praesent convallis,
+            mauris sit amet, dapibus eu felscelerisque quis vehicula et,
+            dignissim a elit. Praesent convallis, mauris sit amet, dapibus eu
+            felscelerisque quis vehicula et, dignissim a elit. Praesent
+            convallis, mauris sit amet, dapibus eu fel
+          </p>
+
+          <form class="formulario">
+            <select class="formulario__campo">
+              <option disabled selected>Seleccionar talla</option>
+              <option>Chica</option>
+              <option>Mediana</option>
+              <option>Grande</option>
+            </select>
+            <input
+              class="formulario__campo"
+              type="number"
+              placeholder="cantidad"
+              min="0"
+            />
+            <input
+              class="formulario__submit"
+              type="submit"
+              value="Agregar al carrito"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="footer__texto">
+        Front End Store - Todos los derechos reservados 2022 - Felipe Iboldi
+      </p>
+    </footer>
+  </body>
+</html>
